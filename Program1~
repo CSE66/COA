@@ -1,0 +1,10 @@
+;<program 1>
+MVI B,2AH
+MVI C,2AH
+MVI D,2AH
+ADD B
+ADD D
+JNZ L1
+DCR C
+L1: INR C 
+HLT
